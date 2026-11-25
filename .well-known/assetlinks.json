@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.dehuaacademy.attendance",
+        "sha256_cert_fingerprints": ["3A:20:5B:66:8C:04:E0:CF:EB:43:F8:1B:D7:2D:43:1B:BA:2C:47:D0:C6:D7:77:36:67:E4:CF:64:D1:10:86:B5"]
+      }
+    }]
