@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>德化廟務｜網址已更新</title>
+<script>
+// 2026-11-26 德化廟務 App 網址從 /attendance/ 改成 /dehua-temple-management/，舊網址自動轉過去（保留後面的路徑、參數）
+(function () {
+  var p = location.pathname, i = p.indexOf('/attendance');
+  var rest = i >= 0 ? p.slice(i + '/attendance'.length) : '/';
+  if (!rest) rest = '/';
+  location.replace('/dehua-temple-management' + rest + location.search + location.hash);
+})();
+</script>
+<p style="font-family:sans-serif;text-align:center;margin-top:40px">德化廟務 App 網址已更新，正在前往新網址…<br><a href="/dehua-temple-management/">https://dehuaacademy.github.io/dehua-temple-management/</a></p>
+</html>
